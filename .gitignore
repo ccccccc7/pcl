@@ -1,1 +1,5 @@
-.pcb
+*.opendb
+
+# 忽略build/目录下的所有文件
+build/
+!*.pcb
