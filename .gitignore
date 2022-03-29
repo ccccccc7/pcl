@@ -3,3 +3,4 @@
 # 忽略build/目录下的所有文件
 build/
 !*.pcb
+*.DS_Store
