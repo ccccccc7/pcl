@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
     pcl::VoxelGrid<pcl::PCLPointCloud2> sor;   //创建滤波对象
     sor.setInputCloud(cloud);                       //设置点云
-    sor.setLeafSize(12.01f, 12.01f, 12.01f);           //设置滤波时创建体素大小为1立方体
+    sor.setLeafSize(0.01f, 0.01f, 0.01f);           //设置滤波时创建体素大小为1立方体
     sor.filter(*cloud_filtered);                    //执行滤波处理，存储输出
 
     std::cerr << "PointCloud after filtering:" << cloud_filtered->width * cloud_filtered->height

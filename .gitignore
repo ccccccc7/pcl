@@ -4,3 +4,5 @@
 build/
 !*.pcb
 *.DS_Store
+
+*.json
