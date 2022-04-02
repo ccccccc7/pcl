@@ -23,7 +23,7 @@ int main(int argc, char **argv)
         << " data points (" << pcl::getFieldsList (*cloud_filtered) << ").";
     pcl::PCDWriter writer;
     writer.write("rgb_after.pcd", *cloud_filtered,
-     Eigen::Vector4f::Zero(), Eigen::Quaternionf::Identity(), false);
+    Eigen::Vector4f::Zero(), Eigen::Quaternionf::Identity(), false);
 
      return (0);
 }

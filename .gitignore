@@ -2,7 +2,7 @@
 
 # 忽略build/目录下的所有文件
 build/
-!*.pcb
+*.pcb
 *.DS_Store
 
 *.json
