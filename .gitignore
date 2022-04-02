@@ -4,5 +4,9 @@
 build/
 *.pcb
 *.DS_Store
+*.make
+*.log
+cmake-build-debug/
+.idea/
 
 *.json

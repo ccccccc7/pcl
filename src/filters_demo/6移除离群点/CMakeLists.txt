@@ -13,5 +13,5 @@ include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-add_executable (extract_indices extract_indices.cpp) # 生成可执行文件 （工程名 cpp文件名）
-target_link_libraries (extract_indices ${PCL_LIBRARIES}) # 工程名
+add_executable (remove_outliers remove_outliers.cpp) # 生成可执行文件 （工程名 cpp文件名）
+target_link_libraries (remove_outliers ${PCL_LIBRARIES}) # 工程名
